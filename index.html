@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Palavras</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+    <!-- ICONES -->
+    <script src="https://kit.fontawesome.com/fb8802cf43.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- Título -->
+        <div class="titulo">
+            <center><h2><i class="fa-solid fa-calculator"></i></h2></center>
+            Calculadora de Palavras
+        </div>
+
+        <!-- Caixa de texto -->
+        <div class="texto">
+            <form>
+                <textarea id="texto" placeholder="Digite um texto aqui"></textarea>
+            </form>
+        </div>
+
+        <!-- Botão que iniciará uma função no JavaScript -->
+        <div class="botao">
+            <form>
+                <input type="button" value="Contar palavras" class="btn btn-dark" onclick="Calcular()">
+            </form>
+        </div>
+
+        <!-- Exibir quantidade de palavras -->
+        <div id="quantidade"></div>
+    </div>
+</body>
+</html>

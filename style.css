@@ -1,0 +1,65 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* BODY */
+body {
+    background-color: #202428 !important;
+}
+
+/* CONTAINER */
+.container {
+    width: 30rem !important;
+    background-color: #424950;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    border: 2px white solid !important;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* TÍTULO */
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.texto {
+   padding: 5px; 
+}
+
+.botao{
+    padding: 5px;
+}
+
+/* QUANTIDADE DE PALAVRAS */
+#quantidade{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* CAIXA DE TEXTO */
+input[type=text] {
+    /* width: 470px; */
+    /* height: 50px; */
+    /* overflow-y: scroll; */
+
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea {
+    width: 470px;
+    height: 100px;
+    background-color: #fff;
+    font-size: 16px;
+    resize: none;
+  }
